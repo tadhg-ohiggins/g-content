@@ -1,0 +1,29 @@
+My Text Editing Practices
+=========================
+The basics: I write in the venerable text editor Vim (MacVim, specifically), and the lightweight text format I use for everything is `reStructuredText`_, which is similar to Markdown but more powerful, more quirky, and less popular.
+
+The first reason I write in a text editor rather than a word processor—a switch I made after years of using word processors heavily for all my writing—is focus. I find it easier to separate content and presentation if the interface for handling presentation is separate.
+
+That separation also allows for UI that is specifically useful while composing rather than reading. The most obvious example is syntax highlighting, which almost all text editors support because programmers tend to want that feature. Here are some of the things that syntax highlighting helps me with:
+
++   Never getting my quotation marks mixed up. I highlight quoted passages, so that if I mis-type and open again instead of closing, it's obvious: “that was the opening quotation mark and here's a second one:” and now this text is still highlighted. This works for single quotation marks as well: ‘something in single quotation marks’ and now after they're closed.
+    
+    I've converted a surprising number of published ebooks into text and had this highlighting expose mismatched quotation marks all over them…
++   The same goes for parentheses (with two levels of nesting (I almost never need more)).
++   Dashes:
+
+    - hyphen
+
+    − minus
+
+    – en dash
+
+    — em dash
+
+This is all relatively easy to customize, so if I think of others, I can add them.
+
+I also use the text editor features for easier input. I know the OS X shortcuts for single and double quotation marks, but I hit ``q<Tab>quoted content<Tab>`` for double quotation marks, and ``Q<Tab>quoted content<Tab>`` for single quotation marks. I have similar shortcuts for exactives (still trying to make that happen), links, emphasis, bold, and so on.
+
+I also have shortcuts for common Unicode symbols, such a ``;x`` for ×, ``;e`` for €, and so on.
+
+reStructuredText uses what I think of as a reference style for many elements, especially links, and this is something I initially couldn't stand about it but now appreciate a lot. At the start of this document, I made a reference to the reStructuredText web page, but didn't enter a URL for it. reStructuredText expects you to work this way and to come back later.
